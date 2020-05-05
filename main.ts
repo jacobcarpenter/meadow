@@ -3,7 +3,6 @@ namespace SpriteKind {
     export const FullGrownFlower = SpriteKind.create()
     export const GrowingFlower = SpriteKind.create()
     export const BuddingFlower = SpriteKind.create()
-    export const UI = SpriteKind.create()
 }
 namespace myTiles {
     //% blockIdentity=images._tile
@@ -62,9 +61,6 @@ function growingStep (plant: Sprite) {
     }
 }
 let mySprite: Sprite = null
-let versionDisplay = sprites.create(image.create(0, 0), SpriteKind.UI)
-versionDisplay.setPosition(139, 15)
-versionDisplay.say("meadow")
 scene.setBackgroundColor(9)
 scene.setBackgroundImage(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
