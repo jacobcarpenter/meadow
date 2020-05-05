@@ -63,8 +63,8 @@ function growingStep (plant: Sprite) {
 }
 let mySprite: Sprite = null
 let versionDisplay = sprites.create(image.create(0, 0), SpriteKind.UI)
-versionDisplay.setPosition(126, 16)
-versionDisplay.say("unreleased")
+versionDisplay.setPosition(139, 15)
+versionDisplay.say("meadow")
 scene.setBackgroundColor(9)
 scene.setBackgroundImage(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
